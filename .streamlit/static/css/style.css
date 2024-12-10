@@ -16,3 +16,20 @@ html, body, st-emotion-cache [class*="css"] {
 h1, h2, h3, h4 {
 	font-family: "Lexend", sans-serif;
 }
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] h4,
+[data-testid="stSidebar"] a,
+[data-testid="stSidebar"] p  {
+    color: black
+}
+
+[data-testid="stSidebarNavViewButton"]  {
+    color: black
+}
+
+[data-testid="stSidebarNavLink"] span {
+    color: black;
+}
